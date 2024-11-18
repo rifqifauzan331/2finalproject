@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    background: -webkit-linear-gradient(top, #009970 0%, #19a37e 100%);
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    height: 100vh;          
+}
+
+.container{
+    width: 100%;
+    max-width: 400px;  
+    background: rgb(233, 239, 236);
+    padding: 40px;
+    box-shadow: 0 35px 55px #4cb79a;
+    border-radius: 10px;
+    text-align: center; 
+}
+
+input[type="email"],
+input[type="password"]{
+    padding: 15px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 15px;
+    width: 100%;
+    background-color: #009970;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #7fccb7;
+}
